@@ -2,35 +2,88 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: sans-serif;
 }
-.navbar{
-    background: gray;
-    color: bisque;
-    overflow: hidden;
-    display: flex;
-    height: 80px;
+.container{
+    background: #42455a;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    height: 100%;
+   
 
 }
 .navbar ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
+    display: inline-flex;
+    margin: 50px;
 }
-.nav ul li{
-margin: 50 10px;
-padding: 20px;
+.navbar ul li{
+list-style: none;
+margin: 0 20px;
+color: #b2b1b1;
+cursor: pointer;
 }
-.nav ul li a{
+.logo img{
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+.logo img{
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 40px;
+}
+.active{
+    color: #19dafa !important;
+}
+.signupbtn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 8px 20px;
-    border-radius: 10px;
-    color: coral;
-    letter-spacing: 1px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(white, green), radial-gradient(circle at top left, yellow, blue);
+    background-origin: border-box;
 }
+.signupbtn span{
+    display: block;
+    padding: 8px 20px;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background: #272831;
+} 
+.app-text{
+    float: left;
+}
+.app-text h1{
+   font-size: 43px;
+   width: 640px;
+   position: relative;
+   margin-left: 40px;
+
+}
+.app-text h1 p{
+   width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #b2b1b1;
+
+ }
+ .app-picture{
+    padding: 50px;
+    width: 50%;
+    height: 50%;
+    float: right;
+ }
+ .app-picture img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+ }
+
+ 
