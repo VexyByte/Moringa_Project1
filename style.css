@@ -58,6 +58,7 @@ cursor: pointer;
 } 
 .app-text{
     float: left;
+    position: fixed;
 }
 .app-text h1{
    font-size: 43px;
@@ -84,6 +85,27 @@ cursor: pointer;
     width: 100%;
     margin-top: -20px;
     padding-left: 50px;
+ }
+ .app-picture h3,ul{
+    text-align: center;
+    list-style: none;
+ }
+ .topmusic h3{
+    color: #19dafa;
+    margin: 20px;
+    text-align: center;
+ }
+ .topmusic{
+    padding: 20px;
+    position: relative;
+ }
+ .topmusic p{
+    margin: 30px;
+ }
+ .tour img{
+    width: 70%;
+    margin-left: 20px;
+    float: inline-start;
  }
 
  
